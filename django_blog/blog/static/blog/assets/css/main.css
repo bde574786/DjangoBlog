@@ -1653,7 +1653,7 @@
 
 	a {
 		text-decoration: underline;
-		color: #f32853;
+		color: #007BFF;
 	}
 
 		a:hover {
@@ -2120,8 +2120,8 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #f32853;
-			box-shadow: 0 0 0 1px #f32853;
+			border-color: #007BFF;
+			box-shadow: 0 0 0 1px #007BFF;
 		}
 
 	.select-wrapper {
@@ -2232,8 +2232,8 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #f32853;
-			box-shadow: 0 0 0 1px #f32853;
+			border-color: #007BFF;
+			box-shadow: 0 0 0 1px #007BFF;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2865,7 +2865,7 @@
 						position: relative;
 						top: -0.075em;
 						vertical-align: middle;
-					}
+					}text
 
 		#header .container {
 			position: relative;
