@@ -4,3 +4,6 @@ from django.http import HttpResponse
 # Create your views here.
 def index(request):
     return render(request, 'blog/index.html')
+
+def sign_in(request):
+    return render(request, 'blog/sign_in.html')
