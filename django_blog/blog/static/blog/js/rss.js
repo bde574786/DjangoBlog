@@ -12,7 +12,6 @@ $(document).ready(function () {
                 return;
             }
 
-            // 최신 항목 중에서 4개까지 가져옵니다.
             const numItemsToShow = 4;
             const numItems = Math.min(numItemsToShow, items.length);
 
@@ -23,8 +22,6 @@ $(document).ready(function () {
                 const title = item.getElementsByTagName("title")[0].textContent;
                 const link = item.getElementsByTagName("link")[0].textContent;
                 const description = item.getElementsByTagName("description")[0].textContent;
-                
-                // 이미지 처리
                 const mediaContent = item.getElementsByTagName("media:content");
                 const image = (mediaContent.length && mediaContent[0].getAttribute('url')) ? mediaContent[0].getAttribute('url') : "{% static 'blog/images/pic04.jpg' %}";
 
