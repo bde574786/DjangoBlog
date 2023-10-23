@@ -1,10 +1,5 @@
 document.getElementById('openModalBtn1').addEventListener('click', function() {
-    console.log('Button 1 clicked'); // 이 메시지가 콘솔에 표시되는지 확인
-    document.getElementById('myModal').classList.add('show');
-});
-
-document.getElementById('openModalBtn2').addEventListener('click', function() {
-    console.log('Button 2 clicked'); // 이 메시지가 콘솔에 표시되는지 확인
+    console.log('Button 1 clicked'); 
     document.getElementById('myModal').classList.add('show');
 });
 

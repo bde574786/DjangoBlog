@@ -1,6 +1,5 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-import feedparser
 
 # Create your views here.
 def index(request):
@@ -8,3 +7,6 @@ def index(request):
 
 def signup(request):
     return render(request, 'blog/signup.html')
+
+def blog_view(reqeust):
+    return render(reqeust, 'blog/blog_view.html')
